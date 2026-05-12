@@ -219,7 +219,7 @@
         <header>
             <h1>プライバシーポリシー</h1>
             <p>AkiAppsDev</p>
-            <p>最終更新日: 2026年5月12日</p>
+            <p>最終更新日: 2026年5月12日（同日2回目改定: Kakikata 追加）</p>
         </header>
 
         <!-- 1. はじめに -->
@@ -271,6 +271,12 @@
                         <td>服薬情報（薬名・服用時刻・服用履歴・服用タイミング設定等、利用者入力分）</td>
                         <td>端末内（Room データベース）</td>
                         <td>広告 SDK のみ</td>
+                    </tr>
+                    <tr>
+                        <td>あいうえおかきかた（Kakikata）</td>
+                        <td>利用設定（再生速度・利き手・音声 ON/OFF・「みた」スタンプ等、利用者選択分）</td>
+                        <td>端末内（DataStore）</td>
+                        <td>なし（広告非搭載・ネットワーク通信なし）</td>
                     </tr>
                 </tbody>
             </table>
@@ -490,6 +496,7 @@
         <section>
             <h2>16. 改定履歴</h2>
             <ul>
+                <li><strong>2026-05-12（2回目）:</strong> 第 2-1 項に Kakikata（あいうえおかきかた）を追加。Kakikata は広告非搭載・ネットワーク通信なし・データは端末内（DataStore）のみで取り扱う旨を明示。</li>
                 <li><strong>2026-05-12:</strong> 第 2-1 項に TrashAlert（ゴミ出しアラート）および Nondakke（のんだっけ?）を追加。SubFlow をリブランド後の名称 Subloop に更新。第 6 項（要配慮個人情報）に Nondakke 服薬リマインダー機能における服薬情報（薬名・服用時刻・服用記録等）の取扱方針を追記（端末内保管、第三者送信なし、医療行為の代替ではない旨を明示）。</li>
                 <li><strong>2026-05-02:</strong> 適用範囲を「Google Play で公開する Android アプリ全般」と一般化し、アプリ列挙を簡素化。VoiceCalc 単独公開に合わせ、未公開アプリ向けの個別条項（4-3 SpeechRecognizer / 4-4 Firebase Auth・Firestore / 4-5 Play Billing、要配慮個人情報の app-specific 列挙、児童保護の app-specific 例示等）を削除。同日、第 2-1 項に SubFlow（サブスク管理）を追加。第 12-bis 項（商標・サードパーティ名称）を新設。</li>
                 <li><strong>2026-04-28:</strong> 全面改訂。提供アプリリストを最新 20 本に更新（GalaxyBowling / BreathCanvas / TiltTone / BeatWalk / OneSecond / IfOnly / InfiniteSudoku / InfiniteNonogram / InfiniteConnect / SyncScope を削除し、FoodKeeper / Kakikata / TrashAlert / Nondakke / TenseiShindan / HajimeteGohan を追加）。要配慮個人情報節（第 6 項）、個人情報保護法第 28 条開示請求節（第 9 項）、GDPR 節（第 10 項）、安全管理措置節（第 11 項）を新設。事業者所在地を追記。</li>

@@ -219,7 +219,7 @@
         <header>
             <h1>Privacy Policy</h1>
             <p>AkiAppsDev</p>
-            <p>Effective Date: May 12, 2026</p>
+            <p>Effective Date: May 12, 2026 (2nd revision the same day: Kakikata added)</p>
         </header>
 
         <!-- 1. Introduction -->
@@ -271,6 +271,12 @@
                         <td>Medication information (drug name, dosing time, intake history, dosing schedule settings, etc., as entered by the user)</td>
                         <td>On-device (Room database)</td>
                         <td>Ad SDK only</td>
+                    </tr>
+                    <tr>
+                        <td>あいうえおかきかた (Kakikata)</td>
+                        <td>App preferences (playback speed, handedness, audio on/off, "seen" markers, etc., as selected by the user)</td>
+                        <td>On-device (DataStore)</td>
+                        <td>None (no ads, no network communication)</td>
                     </tr>
                 </tbody>
             </table>
@@ -490,6 +496,7 @@
         <section>
             <h2>16. Revision History</h2>
             <ul>
+                <li><strong>2026-05-12 (2nd revision):</strong> Added Kakikata (あいうえおかきかた) to Section 2-1. Clarified that Kakikata does not display ads, does not communicate over the network, and stores data solely on-device (DataStore).</li>
                 <li><strong>2026-05-12:</strong> Added TrashAlert (ゴミ出しアラート) and Nondakke (のんだっけ?) to Section 2-1. Renamed SubFlow to its rebranded name Subloop. Added Section 6 (Sensitive Personal Information) handling policy for Nondakke's medication reminder feature (medication name, dosing time, intake records, etc.), clarifying on-device storage, no third-party transmission, and that the app is not a substitute for medical advice.</li>
                 <li><strong>2026-05-02:</strong> Generalized scope to "all Android apps published on Google Play" and simplified app enumeration. Aligned with the launch of VoiceCalc as the sole published app: removed app-specific sections that did not apply (4-3 SpeechRecognizer, 4-4 Firebase Auth/Firestore, 4-5 Play Billing, the per-app sensitive-information enumeration, and the per-app children's-app examples). Same day, added SubFlow to Section 2-1. Added Section 12-bis (Trademarks and Third-Party Names).</li>
                 <li><strong>2026-04-28:</strong> Comprehensive revision. Updated the list of provided apps to the latest 20 titles (removed GalaxyBowling / BreathCanvas / TiltTone / BeatWalk / OneSecond / IfOnly / InfiniteSudoku / InfiniteNonogram / InfiniteConnect / SyncScope; added FoodKeeper / Kakikata / TrashAlert / Nondakke / TenseiShindan / HajimeteGohan). Added new sections on sensitive personal information (Section 6), APPI Article 28 disclosure requests (Section 9), GDPR (Section 10), and security measures (Section 11). Added the business operator's address. English translation (this page) published the same day.</li>
